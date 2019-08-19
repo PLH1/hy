@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+
+    <bean id="book" class="com.example.demo.maindao.Book">
+        <property name="age" value="11"></property>
+        <property name="name" value="test"></property>
+    </bean>
+    <bean id="sunHu" class="com.example.demo.maindao.SunHu">
+        <property name="product" value="11"></property>
+        <property name="zuozhe" value="panlihuan"></property>
+    </bean>
+</beans>
